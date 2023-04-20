@@ -1,0 +1,159 @@
+{
+  "id": "2aed411b-4aa1-4a7b-bcf0-b42b193a9c7f",
+  "version": "2.0",
+  "name": "Userlogin",
+  "url": "https://www.amazon.com",
+  "tests": [{
+    "id": "c896d9dd-2a78-403b-bdcc-900a710b9b34",
+    "name": "UserLoginss",
+    "commands": [{
+      "id": "821fe99f-85b1-4d5c-928d-8aeb4b946de3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "282f2bbd-5287-434f-b647-b88db081ed25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1215x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6047dfa5-7194-47a5-a0e1-919befcb2fcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-line-1-container",
+      "targets": [
+        ["css=.nav-line-1-container", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ed220bf-c6db-456f-9623-bf663995df30",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-line-1-container",
+      "targets": [
+        ["css=.nav-line-1-container", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55d88ed9-9fb9-47f6-bd05-db542afe860f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-flyout-ya-signin .nav-action-inner",
+      "targets": [
+        ["css=#nav-flyout-ya-signin .nav-action-inner", "css:finder"],
+        ["xpath=//div[@id='nav-flyout-ya-signin']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0a381c9-9920-4f27-abf5-369c5fb1c429",
+      "comment": "",
+      "command": "click",
+      "target": "id=ap_email",
+      "targets": [
+        ["id=ap_email", "id"],
+        ["name=email", "name"],
+        ["css=#ap_email", "css:finder"],
+        ["xpath=//input[@id='ap_email']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e9cdbc-64ee-47ad-aa8a-ba0cf5b4e55f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_email",
+      "targets": [
+        ["id=ap_email", "id"],
+        ["name=email", "name"],
+        ["css=#ap_email", "css:finder"],
+        ["xpath=//input[@id='ap_email']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "abbey100abbey@gmail.com"
+    }, {
+      "id": "e9d928fa-69b8-4b0f-a429-9771472b942e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-button-inner > #continue",
+      "targets": [
+        ["css=.a-button-inner > #continue", "css:finder"],
+        ["xpath=//input[@id='continue']", "xpath:attributes"],
+        ["xpath=//span[@id='continue']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a38744a5-50e5-49c3-b081-e1da4587853b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_password",
+      "targets": [
+        ["id=ap_password", "id"],
+        ["name=password", "name"],
+        ["css=#ap_password", "css:finder"],
+        ["xpath=//input[@id='ap_password']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Kingsway123456$"
+    }, {
+      "id": "08b84448-0f05-48c6-a498-df5f873ddd7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInSubmit",
+      "targets": [
+        ["id=signInSubmit", "id"],
+        ["css=#signInSubmit", "css:finder"],
+        ["xpath=//input[@id='signInSubmit']", "xpath:attributes"],
+        ["xpath=//span[@id='auth-signin-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5edf95b-0e29-4b0d-8fa0-63e4e0ec3103",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-al-your-account > .nav-link:nth-child(2) > .nav-text",
+      "targets": [
+        ["css=#nav-al-your-account > .nav-link:nth-child(2) > .nav-text", "css:finder"],
+        ["xpath=//div[@id='nav-al-your-account']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd053a2c-b36b-4d59-aff8-07976c6c950b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-item-signout > .nav-text",
+      "targets": [
+        ["css=#nav-item-signout > .nav-text", "css:finder"],
+        ["xpath=//a[@id='nav-item-signout']/span", "xpath:idRelative"],
+        ["xpath=//a[13]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b9e44e2-37a2-4138-bbf4-b1376cdd81fd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c896d9dd-2a78-403b-bdcc-900a710b9b34"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}
